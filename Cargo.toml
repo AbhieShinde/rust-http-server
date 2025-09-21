@@ -1,0 +1,16 @@
+[package]
+name = "http-server"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abhishek Shinde <shindea890@gmail.com>"]
+description = "A minimal, high-performance HTTP server built from scratch in Rust with no external dependencies."
+license = "MIT"
+repository = "https://github.com/abhieshinde/rust-http-server"
+keywords = ["rust", "http", "server"]
+categories = ["networking", "web"]
+
+[dependencies]
+
+[[bin]]
+name = "http-server"
+path = "main.rs"
